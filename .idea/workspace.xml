@@ -19,19 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="added partners&#10;added promotions&#10;update top and left menu">
-      <change afterPath="$PROJECT_DIR$/include/Untitled.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.access.php" beforeDir="false" afterPath="$PROJECT_DIR$/.access.php" afterDir="false" />
+    <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="added templates &quot;inner&quot;, &quot;main&quot;">
+      <change afterPath="$PROJECT_DIR$/company/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/logo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/phone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/sect_inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/sect_inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix_server_test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/company_name.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/company_name.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/copyright.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/copyright.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/motto.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/motto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/part_contract.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners/part_contract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +58,24 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bitrix/templates/.default" />
       <recent name="$PROJECT_DIR$/bitrix/php_interface" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix" />
+      <recent name="$PROJECT_DIR$/bitrix/templates/.default" />
+      <recent name="$PROJECT_DIR$/bitrix/templates/inner " />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +89,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606390143414</updated>
-      <workItem from="1606390144985" duration="7260000" />
+      <workItem from="1606390144985" duration="18453000" />
+      <workItem from="1606486343670" duration="1261000" />
+      <workItem from="1606557200566" duration="5613000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606392886068</created>
@@ -92,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606395252195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added init.php&#10;update partners">
+      <created>1606419086233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606419086233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,30 +130,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="added partners&#10;added promotions&#10;update top and left menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="added partners&#10;added promotions&#10;update top and left menu" />
+    <MESSAGE value="added init.php&#10;update partners" />
+    <option name="LAST_COMMIT_MESSAGE" value="added init.php&#10;update partners" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1606396301365">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1606458587504">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1606396301365" />
-    <state x="539" y="348" key="NewPhpFileDialog" timestamp="1606415859314">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1606458587504" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1606419086057" />
+    <state x="539" y="346" key="NewPhpFileDialog" timestamp="1606564290945">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
-    <state x="539" y="348" key="NewPhpFileDialog/0.23.1440.795@0.23.1440.795" timestamp="1606415859314" />
+    <state x="539" y="346" key="NewPhpFileDialog/0.23.1440.789@0.23.1440.789" timestamp="1606564290945" />
+    <state x="539" y="348" key="NewPhpFileDialog/0.23.1440.795@0.23.1440.795" timestamp="1606421404806" />
     <state x="221" y="56" key="SettingsEditor" timestamp="1606392690780">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="221" y="56" key="SettingsEditor/0.23.1440.792@0.23.1440.792" timestamp="1606392690780" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1606396308154">
-      <screen x="0" y="23" width="1440" height="792" />
+    <state x="320" y="158" key="Vcs.Push.Dialog.v2" timestamp="1606419095585">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1606396308154" />
+    <state x="320" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1606419095585" />
     <state x="518" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606396293163">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
