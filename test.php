@@ -5,9 +5,9 @@ $APPLICATION->SetTitle("Тест");
 	"bitrix:main.include",
 	"",
 	Array(
-		"AREA_FILE_RECURSIVE" => "Y",
-		"AREA_FILE_SHOW" => "sect",
+		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
-		"EDIT_TEMPLATE" => ""
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "/include/address"
 	)
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

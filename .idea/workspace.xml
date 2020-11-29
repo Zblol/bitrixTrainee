@@ -19,21 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="added templates &quot;inner&quot;, &quot;main&quot;">
-      <change afterPath="$PROJECT_DIR$/company/.section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/logo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/phone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/.section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/sect_inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/.section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products/sect_inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+    <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contacts/.section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/green.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/mebel_div.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sect_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bottom.menu.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/copyright.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/copyright.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/phone.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/phone.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/sect_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index_inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,8 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bitrix/templates/main/lang/en" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -73,9 +72,11 @@
       <recent name="$PROJECT_DIR$/bitrix/php_interface" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix" />
+      <recent name="$PROJECT_DIR$/bitrix/templates/main/lang/en" />
+      <recent name="$PROJECT_DIR$/bitrix/templates/inner/lang/en" />
+      <recent name="$PROJECT_DIR$/bitrix/templates/main" />
       <recent name="$PROJECT_DIR$/bitrix/templates/.default" />
-      <recent name="$PROJECT_DIR$/bitrix/templates/inner " />
+      <recent name="$PROJECT_DIR$/bitrix/templates/.default/include" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +92,7 @@
       <updated>1606390143414</updated>
       <workItem from="1606390144985" duration="18453000" />
       <workItem from="1606486343670" duration="1261000" />
-      <workItem from="1606557200566" duration="5613000" />
+      <workItem from="1606557200566" duration="23187000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606392886068</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606419086233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added breadcrubs &#10;added include components&#10;added logo and phone&#10;changed top menu">
+      <created>1606565237105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606565237105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,31 +145,59 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added partners&#10;added promotions&#10;update top and left menu" />
     <MESSAGE value="added init.php&#10;update partners" />
-    <option name="LAST_COMMIT_MESSAGE" value="added init.php&#10;update partners" />
+    <MESSAGE value="added breadcrubs &#10;added include components&#10;added logo and phone&#10;changed top menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="added breadcrubs &#10;added include components&#10;added logo and phone&#10;changed top menu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1606458587504">
-      <screen x="0" y="23" width="1440" height="792" />
-    </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1606458587504" />
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1606419086057" />
-    <state x="539" y="346" key="NewPhpFileDialog" timestamp="1606564290945">
+    <state x="447" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606638455192">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
-    <state x="539" y="346" key="NewPhpFileDialog/0.23.1440.789@0.23.1440.789" timestamp="1606564290945" />
+    <state x="447" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.789@0.23.1440.789" timestamp="1606638455192" />
+    <state x="466" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606586967918">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="466" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.789@0.23.1440.789" timestamp="1606586967918" />
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1606565236876">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1606565236876" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1606458587504" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1606419086057" />
+    <state x="539" y="346" key="NewPhpFileDialog" timestamp="1606638477698">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="539" y="346" key="NewPhpFileDialog/0.23.1440.789@0.23.1440.789" timestamp="1606638477698" />
     <state x="539" y="348" key="NewPhpFileDialog/0.23.1440.795@0.23.1440.795" timestamp="1606421404806" />
     <state x="221" y="56" key="SettingsEditor" timestamp="1606392690780">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="221" y="56" key="SettingsEditor/0.23.1440.792@0.23.1440.792" timestamp="1606392690780" />
-    <state x="320" y="158" key="Vcs.Push.Dialog.v2" timestamp="1606419095585">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="424" y="129" key="VCS.ChangeListViewerDialog" timestamp="1606568455550">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
+    <state x="424" y="129" key="VCS.ChangeListViewerDialog/0.23.1440.789@0.23.1440.789" timestamp="1606568455550" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1606565254843">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1606565254843" />
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1606396308154" />
     <state x="320" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1606419095585" />
-    <state x="518" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606396293163">
-      <screen x="0" y="23" width="1440" height="792" />
+    <state x="518" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606587014322">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
+    <state x="518" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.789@0.23.1440.789" timestamp="1606587014322" />
     <state x="518" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.792@0.23.1440.792" timestamp="1606396293163" />
+    <state x="523" y="313" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606568409468">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="523" y="313" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.789@0.23.1440.789" timestamp="1606568409468" />
+    <state x="531" y="319" key="git4idea.ui.GitResetDialog" timestamp="1606568456208">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="531" y="319" key="git4idea.ui.GitResetDialog/0.23.1440.789@0.23.1440.789" timestamp="1606568456208" />
+    <state x="385" y="136" width="670" height="676" key="search.everywhere.popup" timestamp="1606586945146">
+      <screen x="0" y="23" width="1440" height="789" />
+    </state>
+    <state x="385" y="136" width="670" height="676" key="search.everywhere.popup/0.23.1440.789@0.23.1440.789" timestamp="1606586945146" />
   </component>
 </project>
