@@ -6,7 +6,7 @@ $APPLICATION->SetTitle("Новости");
 	".default", 
 	array(
 		"IBLOCK_TYPE" => "news",
-		"IBLOCK_ID" => "#NEWS_IBLOCK_ID#",
+		"IBLOCK_ID" => "1",
 		"NEWS_COUNT" => "5",
 		"USE_SEARCH" => "N",
 		"USE_RSS" => "Y",
@@ -85,6 +85,10 @@ $APPLICATION->SetTitle("Новости");
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"SHOW_404" => "N",
 		"MESSAGE_404" => "",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"USE_SHARE" => "N",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",

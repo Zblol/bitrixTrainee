@@ -30,7 +30,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Фотогалерея", 
-		"/", 
+		"", 
 		Array(), 
 		Array(), 
 		"" 
