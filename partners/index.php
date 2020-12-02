@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Условия сотрудничества");
-?><p>
+?>
+    <p>
+
 	 Участие в партнерской программе выводит бизнес веб-разработчиков на новый уровень, позволяет:&nbsp;
 </p>
 <table>
