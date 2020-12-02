@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Новая страница");
+$APPLICATION->SetTitle("профиль");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:search.form",
-	"head",
+	"bitrix:main.profile",
+	"",
 Array()
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -2,7 +2,7 @@
 $aMenuLinks = Array(
 	Array(
 		"", 
-		"/", 
+		"http://localhost:8080/", 
 		Array(), 
 		Array("IMG"=>"/bitrix/templates/.default/images/nv_home.png"), 
 		"" 
@@ -30,7 +30,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Фотогалерея", 
-		"/", 
+		"http://localhost:8080/", 
 		Array(), 
 		Array(), 
 		"" 

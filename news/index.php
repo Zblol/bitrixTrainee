@@ -3,10 +3,10 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news", 
-	".default", 
+	"news", 
 	array(
 		"IBLOCK_TYPE" => "news",
-		"IBLOCK_ID" => "#NEWS_IBLOCK_ID#",
+		"IBLOCK_ID" => "1",
 		"NEWS_COUNT" => "5",
 		"USE_SEARCH" => "N",
 		"USE_RSS" => "Y",
@@ -76,7 +76,7 @@ $APPLICATION->SetTitle("Новости");
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000000",
 		"PAGER_SHOW_ALL" => "N",
 		"AJAX_OPTION_ADDITIONAL" => "",
-		"COMPONENT_TEMPLATE" => ".default",
+		"COMPONENT_TEMPLATE" => "news",
 		"USE_REVIEW" => "N",
 		"SET_LAST_MODIFIED" => "N",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -85,6 +85,10 @@ $APPLICATION->SetTitle("Новости");
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"SHOW_404" => "N",
 		"MESSAGE_404" => "",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"USE_SHARE" => "N",
 		"SEF_URL_TEMPLATES" => array(
 			"news" => "",
 			"section" => "",
