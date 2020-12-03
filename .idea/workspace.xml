@@ -20,17 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/products/.left.menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/.left.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/company/.left.menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company/reviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/company/reviews/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/address.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/new-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners/part_contract.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners/part_contract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/.left.menu_ext.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/.left.menu_ext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/promotions/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urlrewrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/urlrewrite.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bitrix/templates/main/lang/en" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/products" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -71,11 +69,11 @@
       <recent name="$PROJECT_DIR$/bitrix/php_interface" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/products" />
       <recent name="$PROJECT_DIR$/bitrix/templates/main/lang/en" />
       <recent name="$PROJECT_DIR$/bitrix/templates/inner/lang/en" />
       <recent name="$PROJECT_DIR$/bitrix/templates/main" />
       <recent name="$PROJECT_DIR$/bitrix/templates/.default" />
-      <recent name="$PROJECT_DIR$/bitrix/templates/.default/include" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +89,7 @@
       <updated>1606390143414</updated>
       <workItem from="1606390144985" duration="18453000" />
       <workItem from="1606486343670" duration="1261000" />
-      <workItem from="1606557200566" duration="50546000" />
+      <workItem from="1606557200566" duration="63255000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606392886068</created>
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606745357839</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added reviews slider&#10;update news page">
+      <created>1606937783759</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606937783759</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +166,8 @@
     <MESSAGE value="added breadcrubs &#10;added include components&#10;added logo and phone&#10;changed top menu" />
     <MESSAGE value="added include components&#10;added different divs" />
     <MESSAGE value="added registration&#10;update news&#10;update products&#10;update contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added registration&#10;update news&#10;update products&#10;update contacts" />
+    <MESSAGE value="added reviews slider&#10;update news page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added reviews slider&#10;update news page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606638455192">
@@ -172,16 +178,17 @@
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="466" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.789@0.23.1440.789" timestamp="1606586967918" />
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1606745357683">
-      <screen x="0" y="23" width="1440" height="789" />
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1606937783581">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1606745357683" />
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1606458587504" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1606937783581" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1606419086057" />
-    <state x="539" y="346" key="NewPhpFileDialog" timestamp="1606638477698">
-      <screen x="0" y="23" width="1440" height="789" />
+    <state x="539" y="347" key="NewPhpFileDialog" timestamp="1606996348705">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="539" y="346" key="NewPhpFileDialog/0.23.1440.789@0.23.1440.789" timestamp="1606638477698" />
+    <state x="539" y="347" key="NewPhpFileDialog/0.23.1440.792@0.23.1440.792" timestamp="1606996348705" />
     <state x="539" y="348" key="NewPhpFileDialog/0.23.1440.795@0.23.1440.795" timestamp="1606421404806" />
     <state x="221" y="56" key="SettingsEditor" timestamp="1606392690780">
       <screen x="0" y="23" width="1440" height="792" />
@@ -191,11 +198,11 @@
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="424" y="129" key="VCS.ChangeListViewerDialog/0.23.1440.789@0.23.1440.789" timestamp="1606568455550" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1606745370177">
-      <screen x="0" y="23" width="1440" height="789" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1606937817582">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1606745370177" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1606396308154" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1606937817582" />
     <state x="320" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1606419095585" />
     <state x="518" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606587014322">
       <screen x="0" y="23" width="1440" height="789" />
