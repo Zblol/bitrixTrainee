@@ -5,8 +5,8 @@ global $APPLICATION;
 $aMenuLinksExt=$APPLICATION->IncludeComponent("bitrix:menu.sections", "", array(
     "IS_SEF" => "Y",
     "SEF_BASE_URL" => "",
-    "SECTION_PAGE_URL" => "#SITE_DIR#/products/#SECTION_ID#/",
-    "DETAIL_PAGE_URL" => "#SITE_DIR#/products/#SECTION_ID#/",
+    "SECTION_PAGE_URL" => "#SITE_DIR#/products/?SECTION_ID=#SECTION_ID#/",
+    "DETAIL_PAGE_URL" => "#SITE_DIR#/products/#SECTION_ID#/#ID#/",
     "IBLOCK_TYPE" => "products_s1",
     "IBLOCK_ID" => "3",
     "DEPTH_LEVEL" => "3",

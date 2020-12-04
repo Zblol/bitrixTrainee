@@ -20,15 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/products/.left.menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/reviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/company/reviews/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partners/event_сalendar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/partners/event_сalendar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/.left.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/.left.menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/.left.menu_ext.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/.left.menu_ext.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/products/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promotions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/promotions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <updated>1606390143414</updated>
       <workItem from="1606390144985" duration="18453000" />
       <workItem from="1606486343670" duration="1261000" />
-      <workItem from="1606557200566" duration="63255000" />
+      <workItem from="1606557200566" duration="70306000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606392886068</created>
@@ -140,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606937783759</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update products&#10;added reviews">
+      <created>1607001436226</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607001436226</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,21 +171,22 @@
     <MESSAGE value="added include components&#10;added different divs" />
     <MESSAGE value="added registration&#10;update news&#10;update products&#10;update contacts" />
     <MESSAGE value="added reviews slider&#10;update news page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added reviews slider&#10;update news page" />
+    <MESSAGE value="update products&#10;added reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="update products&#10;added reviews" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606638455192">
+    <state x="447" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607060975132">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
-    <state x="447" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.789@0.23.1440.789" timestamp="1606638455192" />
+    <state x="447" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.789@0.23.1440.789" timestamp="1607060975132" />
     <state x="466" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606586967918">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="466" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.789@0.23.1440.789" timestamp="1606586967918" />
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1606937783581">
-      <screen x="0" y="23" width="1440" height="792" />
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1607001436054">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1606745357683" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1607001436054" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1606937783581" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1606419086057" />
     <state x="539" y="347" key="NewPhpFileDialog" timestamp="1606996348705">
@@ -198,10 +203,10 @@
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="424" y="129" key="VCS.ChangeListViewerDialog/0.23.1440.789@0.23.1440.789" timestamp="1606568455550" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1606937817582">
-      <screen x="0" y="23" width="1440" height="792" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1607001443770">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1606745370177" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1607001443770" />
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1606937817582" />
     <state x="320" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1606419095585" />
     <state x="518" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606587014322">
