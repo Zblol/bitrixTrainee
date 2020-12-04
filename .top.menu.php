@@ -23,14 +23,14 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Каталог", 
-		"products/", 
+		"/products/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Фотогалерея", 
-		"http://localhost:8080/", 
+		"Акции", 
+		"/promotions/", 
 		Array(), 
 		Array(), 
 		"" 
