@@ -17,15 +17,23 @@ $APPLICATION->SetTitle("Контакты");
 	
 <h2>Форма обратной связи</h2>
  <?$APPLICATION->IncludeComponent(
-	"bitrix:main.feedback",
-	"",
-	Array(
+	"bitrix:main.feedback", 
+	".default", 
+	array(
 		"EMAIL_TO" => "test@test.ru",
-		"EVENT_MESSAGE_ID" => array("7"),
+		"EVENT_MESSAGE_ID" => array(
+			0 => "7",
+		),
 		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
-		"REQUIRED_FIELDS" => array("NAME","EMAIL","MESSAGE"),
-		"USE_CAPTCHA" => "Y"
-	)
+		"REQUIRED_FIELDS" => array(
+			0 => "NAME",
+			1 => "EMAIL",
+			2 => "MESSAGE",
+		),
+		"USE_CAPTCHA" => "Y",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
 );?>&nbsp;<br>
 <h2>Офис в Москве</h2>
 <p>
