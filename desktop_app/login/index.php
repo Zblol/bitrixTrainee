@@ -36,7 +36,7 @@ if ($_POST['action'] != 'login')
 	exit;
 }
 
-IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/im/install/public/desktop_app/login/index.php");
+IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/im/install/public/desktop_app/login/userlist.php");
 
 $result = $USER->Login($_POST['login'], $_POST['password']);
 if ($_POST['otp'])
