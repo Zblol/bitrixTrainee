@@ -29,7 +29,7 @@ if (
 	return false;
 }
 
-IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/im/install/public/desktop_app/index.php");
+IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/im/install/public/desktop_app/userlist.php");
 
 if (isset($_GET['IFRAME']) == 'Y')
 {

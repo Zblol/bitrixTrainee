@@ -28,7 +28,7 @@ if (intval($USER->GetID()) <= 0 || \Bitrix\Im\User::getInstance()->isConnector()
 	return true;
 }
 
-IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/im/install/public/desktop_app/index.php");
+IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/im/install/public/desktop_app/userlist.php");
 
 $GLOBALS["APPLICATION"]->SetPageProperty("BodyClass", "im-desktop");
 

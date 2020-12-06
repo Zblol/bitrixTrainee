@@ -1,2 +1,2 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/limit/index.php");
+require($_SERVER["DOCUMENT_ROOT"]."/limit/userlist.php");
