@@ -1863,5 +1863,29 @@ color: #0073A3;
 	padding:3px 2px 0;
 }
 
+ #user {
+	 width: 500px;
+ }
+
+#user_head {
+	border: 5px solid black;
+}
+
+
+#button_create {
+	width: 100px;
+	height: 50px;
+}
+
+
+.td_form {
+	padding: 10px 10px;
+	border-bottom: 2px solid black;
+}
+
+
+
+
+
 
 /*================================================== pagination =========================================*/

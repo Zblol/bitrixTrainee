@@ -17,12 +17,12 @@ $cUser = $USER::GetList(
             'LOGIN'
         ]
     ]
+
 )->fetch();
 
 
 $rsUser = CUser::GetByLogin($cUser["LOGIN"]);
 $arUser = $rsUser->Fetch();
-
 
 ?>
 
