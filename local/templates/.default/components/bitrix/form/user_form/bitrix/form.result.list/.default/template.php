@@ -74,14 +74,13 @@ $APPLICATION->SetTitle("Форма Пользователей");
     );
 
 
-    foreach ($arrAnswers as $arrAns ):
-        foreach ($arrAns as $ar) :
+    foreach ($arrAnswers as $arrAnswer ):
 
-            foreach ($ar as $RR) :
+        foreach ($arrAnswer[1] as $arrAnsw => $answerParam) :
 
-                $answer  = $RR["USER_TEXT"];
+                $answer  = $answerParam["USER_TEXT"];
 
-                $rsResult = CFormResult::GetByID($RR["RESULT_ID"]);
+                $rsResult = CFormResult::GetByID($answerParam["RESULT_ID"]);
                 $arResult = $rsResult->Fetch();
 
                 $status = $arResult["STATUS_TITLE"];
@@ -102,7 +101,7 @@ $APPLICATION->SetTitle("Форма Пользователей");
                 <td class="td_form">
 
 
-         <a class="popup_edit" href="/admin/form/edit.php?WEB_FORM_ID=2&RESULT_ID=<?echo $RR["RESULT_ID"]?>&formresult=editok" style="text-decoration: none;"> <? echo $answer?></a>
+         <a class="popup_edit" href="/admin/form/edit.php?WEB_FORM_ID=2&RESULT_ID=<?echo $answerParam["RESULT_ID"]?>&formresult=editok" style="text-decoration: none;"> <? echo $answer?></a>
 
 
                 </td>
@@ -115,8 +114,7 @@ $APPLICATION->SetTitle("Форма Пользователей");
                 </tr>
 
             <?endforeach;
-        endforeach;
-    endforeach; ?>
+        endforeach;?>
 
     </tbody>
 </table>
