@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="" />
+    <list default="true" id="d80fecc7-7ec1-416b-a362-5283ab3acb42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form/user_form/bitrix/form.result.list/.default/result_modifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form/user_form/bitrix/form.result.list/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form/user_form/bitrix/form.result.list/.default/template.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +84,7 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration>$PROJECT_DIR$/../.subversion</configuration>
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,6 +97,11 @@
       <workItem from="1606486343670" duration="1261000" />
       <workItem from="1606557200566" duration="129992000" />
       <workItem from="1607598239745" duration="61207000" />
+      <workItem from="1608141982784" duration="312000" />
+      <workItem from="1608277508214" duration="8449000" />
+      <workItem from="1608893648679" duration="1263000" />
+      <workItem from="1608895453275" duration="1448000" />
+      <workItem from="1608897261511" duration="1728000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606392886068</created>
@@ -184,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608012050272</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update form/index.php">
+      <created>1608142279958</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608142279958</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +234,8 @@
     <MESSAGE value="added users&#10;added users list&#10;added user profile&#10;added search form for users list" />
     <MESSAGE value="created web-form" />
     <MESSAGE value="deleted success.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted success.php" />
+    <MESSAGE value="update form/index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="update form/index.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="183" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607592022187">
@@ -237,17 +255,17 @@
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="466" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.789@0.23.1440.789" timestamp="1606586967918" />
-    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1608012050095">
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1608142279744">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
-    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1608012050095" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1608142279744" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1607067255169" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.795@0.23.1440.795" timestamp="1606419086057" />
-    <state x="539" y="335" key="NewPhpFileDialog" timestamp="1607953473920">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="539" y="346" key="NewPhpFileDialog" timestamp="1608285373155">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="539" y="335" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1607953473920" />
-    <state x="539" y="346" key="NewPhpFileDialog/0.23.1440.789@0.23.1440.789" timestamp="1607178020464" />
+    <state x="539" y="346" key="NewPhpFileDialog/0.23.1440.789@0.23.1440.789" timestamp="1608285373155" />
     <state x="539" y="347" key="NewPhpFileDialog/0.23.1440.792@0.23.1440.792" timestamp="1607453331427" />
     <state x="539" y="348" key="NewPhpFileDialog/0.23.1440.795@0.23.1440.795" timestamp="1606421404806" />
     <state x="221" y="56" key="SettingsEditor" timestamp="1606392690780">
@@ -262,10 +280,10 @@
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="424" y="129" key="VCS.ChangeListViewerDialog/0.23.1440.789@0.23.1440.789" timestamp="1606568455550" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1608012059806">
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1608142286902">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1608012059806" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1608142286902" />
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.792@0.23.1440.792" timestamp="1607067183746" />
     <state x="320" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.795@0.23.1440.795" timestamp="1606419095585" />
     <state x="518" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606587014322">
@@ -285,10 +303,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="544" y="242" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1607691905570" />
-    <state x="385" y="129" width="670" height="772" key="search.everywhere.popup" timestamp="1607935851160">
+    <state x="385" y="129" width="670" height="772" key="search.everywhere.popup" timestamp="1608895170370">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="129" width="670" height="772" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607935851160" />
+    <state x="385" y="129" width="670" height="772" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1608895170370" />
     <state x="385" y="136" width="670" height="676" key="search.everywhere.popup/0.23.1440.789@0.23.1440.789" timestamp="1607268172452" />
   </component>
 </project>

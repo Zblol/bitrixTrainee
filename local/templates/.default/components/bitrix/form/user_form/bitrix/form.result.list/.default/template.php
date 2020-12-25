@@ -5,38 +5,38 @@ $APPLICATION->SetTitle("Форма Пользователей");
 ?>
 
 <script>
-   BX.ready(function() {
+    BX.ready(function () {
         $('a.popup').fancybox({
-            "frameWidth" : 510,
-            "frameHeight" : 400,
-            "hideOnContentClick" :false,
-            "type":"ajax"
+            "frameWidth": 510,
+            "frameHeight": 400,
+            "hideOnContentClick": false,
+            "type": "ajax"
         });
         $("a.popup_edit").fancybox(
             {
-                "frameWidth" : 510,
-                "frameHeight" : 400,
-                "hideOnContentClick" :false,
-                "type":"ajax"
+                "frameWidth": 510,
+                "frameHeight": 400,
+                "hideOnContentClick": false,
+                "type": "ajax"
 
             });
 
         $("a.popup_view").fancybox(
             {
-                "frameWidth" : 510,
-                "frameHeight" : 400,
-                "hideOnContentClick" :false,
-                "type":"ajax"
+                "frameWidth": 510,
+                "frameHeight": 400,
+                "hideOnContentClick": false,
+                "type": "ajax"
             });
-       $.ajax({
-           url: 'index.php',
-           success: function(){
-               alert('РЕЗУЛЬТАТ СОХРАНЁН');
-           },
-           error: function(){
-               alert('failure');
-           }
-       });
+        /* $.ajax({
+             url: 'index.php',
+             success: function(){
+                 alert('РЕЗУЛЬТАТ СОХРАНЁН');
+             },
+             error: function(){
+                 alert('failure');
+             }
+         });*/
     });
 
 </script>
@@ -62,59 +62,46 @@ $APPLICATION->SetTitle("Форма Пользователей");
     </tr>
     </thead>
 
-
     <?
 
-    $rsAnswers = CForm::GetResultAnswerArray(
-        2,
-        $arrColumns,
-        $arrAnswers,
-        $arrAnswersSID,
-        array("FIELD_ID" => "1")
-    );
+
+    foreach ($arResult as $arAnswers) :
+    foreach ($arAnswers as $arAnswer => $arParam):
 
 
-    foreach ($arrAnswers as $arrAnswer ):
 
-        foreach ($arrAnswer[1] as $arrAnsw => $answerParam) :
+    $arItems =  getDataItem($arParam[1]["RESULT_ID"]);
 
-                $answer  = $answerParam["USER_TEXT"];
-
-                $rsResult = CFormResult::GetByID($answerParam["RESULT_ID"]);
-                $arResult = $rsResult->Fetch();
-
-                $status = $arResult["STATUS_TITLE"];
-                $date = $arResult["DATE_CREATE"];
-
-
-                ?>
+    ?>
 
     <tbody>
-                <td class="td_form"><br/>
+    <td class="td_form"><br/>
 
-                    <?
-                    echo $date;
-                    ?>
+        <?
+        echo $arItems["DATE_CREATE"];
+        ?>
+    </td>
 
-                </td>
-
-                <td class="td_form">
-
-
-         <a class="popup_edit" href="/admin/form/edit.php?WEB_FORM_ID=2&RESULT_ID=<?echo $answerParam["RESULT_ID"]?>&formresult=editok" style="text-decoration: none;"> <? echo $answer?></a>
+    <td class="td_form">
 
 
-                </td>
+        <a class="popup_edit"
+           href="/admin/form/edit.php?WEB_FORM_ID=2&RESULT_ID=<? echo $arParam[1]["RESULT_ID"] ?>&formresult=editok"
+           style="text-decoration: none;"> <? echo $arParam[1]["USER_TEXT"]; ?></a>
 
-                <td class="td_form">
 
-                    <? echo $status; ?>
+    </td>
 
-                </td>
-                </tr>
+    <td class="td_form">
 
-            <?endforeach;
-        endforeach;?>
+        <? echo $arItems["STATUS_TITLE"]; ?>
+
+
+    </td>
+    </tr>
+    <? endforeach;
+    ?>
+    <? endforeach; ?>
 
     </tbody>
 </table>
