@@ -9,14 +9,18 @@ IncludeTemplateLangFile(__FILE__);
     <? $APPLICATION->ShowHead(); ?>
     <title><? $APPLICATION->ShowTitle() ?></title>
 
-    <link rel="stylesheet" href="/bitrix/templates/.default/template_styles.css"/>
+    <link rel="stylesheet" href="/local/templates/.default/template_styles.css"/>
+    <link rel="stylesheet" href="/bitrix/templates/.default/js/fancybox/jquery.fancybox-1.3.4.css"/>
 
-    <script type="text/javascript" src="/bitrix/templates/.default/js/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" src="/bitrix/templates/.default/js/slides.min.jquery.js"></script>
-    <script type="text/javascript" src="/bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
-    <script type="text/javascript" src="/bitrix/templates/.default/js/functions.js"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="/bitrix/templates/.default/favicon.ico">
+    <script type="text/javascript" src="/local/templates/.default/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="/local/templates/.default/js/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="/local/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script type="text/javascript" src="/local/templates/.default/js/functions.js"></script>
+    <script type="text/javascript" src="/local/templates/.default/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript" src="/local/templates/.default/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/local/templates/.default/favicon.ico">
 
     <!--[if gte IE 9]>
     <style type="text/css">.gradient {

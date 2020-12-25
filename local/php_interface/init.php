@@ -11,4 +11,8 @@ if(file_exists($_SERVER["DOCUMENT_ROOT"]."/local/php_interface/include/crop_text
 if(file_exists($_SERVER["DOCUMENT_ROOT"]."/local/php_interface/include/similarText.php")){
     require_once($_SERVER["DOCUMENT_ROOT"] . "/local/php_interface/include/similarText.php");
 }
+
+if(file_exists($_SERVER["DOCUMENT_ROOT"]."/local/php_interface/include/makeDate.php")){
+    require_once($_SERVER["DOCUMENT_ROOT"] . "/local/php_interface/include/makeDate.php");
+}
 ?>
