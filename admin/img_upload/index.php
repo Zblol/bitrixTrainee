@@ -4,14 +4,13 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 
 $APPLICATION->SetTitle("Загрузить Изображение");
 
-?>
-    <script>
+?><script>
         BX.ready(function () {
             $('form').submit(function (e) {
                 $.ajax({
                     url: '/admin/img_upload/index.php',
                     success: function () {
-                        alert("GOOD");
+                        alert('success');
                     },
                     error: function () {
                         alert('failure');
@@ -22,12 +21,12 @@ $APPLICATION->SetTitle("Загрузить Изображение");
     </script>
 
 
-    <form method="post" enctype='multipart/form-data' id="upl_img">
+    <form method="post" enctype="multipart/form-data" id="upl_img">
         <?= CFile::InputFile("IMAGE_ID", 20, $str_IMAGE_ID); ?>
 
         <input type="submit" id="submit" value="сохранить">
     </form>
-    <br/>
+    <br>
 
 
 <?
@@ -61,13 +60,11 @@ while ($arRes = $res->GetNext()):
 
 <? else: ?>
 
-    <a href="/404.php"> Скачать изображение № <?= $arResult["ID"] ?> <br/> </a>
+    <a href="/404.php"> Скачать изображение № <?= $arResult["ID"] ?> <br> </a>
 
 <?endif; ?>
 
 
 <?
 endwhile;
-?>
-
-<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+?><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
