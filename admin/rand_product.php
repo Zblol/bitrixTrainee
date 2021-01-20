@@ -61,7 +61,7 @@ $APPLICATION->SetTitle("витрина");
 		"PAGER_SHOW_ALWAYS" => "Y",
 		"PAGER_TEMPLATE" => "show_more",
 		"PAGER_TITLE" => "Товары",
-		"PAGE_ELEMENT_COUNT" => "5",
+		"PAGE_ELEMENT_COUNT" => "10",
 		"PARTIAL_PRODUCT_PROPERTIES" => "N",
 		"PRICE_CODE" => array(),
 		"PRICE_VAT_INCLUDE" => "Y",
