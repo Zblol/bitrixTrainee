@@ -1,6 +1,4 @@
-
-
-    BX.ready(function () {
+BX.ready(function () {
 
     $(document).on('click', '.load_more', function () {
 
@@ -21,7 +19,7 @@
 
                     targetContainer.prepend(elements);
                     targetContainer.prepend(pagination);
-                    window.addEventListener('scroll',checkScroll);
+                    window.addEventListener('scroll', checkScroll);
                 }
             })
         }
@@ -30,33 +28,32 @@
     const catalogItem = document.querySelectorAll('.catalog__item');
 
     function checkScroll() {
-    catalogItem.forEach((item) => {
-    const id = item.querySelector('.product_id').innerHTML;
-    if (document.documentElement.scrollTop === (document.documentElement.scrollTop + item.getBoundingClientRect().height)
-    - item.getBoundingClientRect().height) {
+        catalogItem.forEach((item) => {
+            const id = item.querySelector('.product_id').innerHTML;
+            if (document.documentElement.scrollTop === (document.documentElement.scrollTop + item.getBoundingClientRect().height)
+                - item.getBoundingClientRect().height) {
 
-    //ajax here
-    $.ajax({
-    type: "POST",
-    url: '/admin/rand_product.php',
-    data: {"ID": id},
-    success: function (data) {
+                //ajax here
+                $.ajax({
+                    type: "POST",
+                    url: '/admin/rand_product.php',
+                    data: {"ID": id},
+                    success: function (data) {
 
-}
-
-
-});
-
-    console.log(id);
+                    }
 
 
-}
-    window.removeEventListener('scroll', checkScroll);
-});
-}
+                });
 
-    window.addEventListener('scroll',checkScroll);
+                console.log(id);
 
+
+            }
+            window.removeEventListener('scroll', checkScroll);
+        });
+    }
+
+    window.addEventListener('scroll', checkScroll);
 
 
 });
