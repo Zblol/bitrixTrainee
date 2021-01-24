@@ -30,8 +30,8 @@ BX.ready(function () {
     function checkScroll() {
         catalogItem.forEach((item) => {
             const id = item.querySelector('.product_id').innerHTML;
-            if (document.documentElement.scrollTop === (document.documentElement.scrollTop + item.getBoundingClientRect().height)
-                - item.getBoundingClientRect().height) {
+
+            if (window.pageYOffset <= item.clientHeight + window.getComputedStyle(item).height.slice(0, window.getComputedStyle(item).height - 2 ) < (window.pageYOffset + window.innerHeight)) {
 
                 //ajax here
                 $.ajax({
@@ -40,15 +40,18 @@ BX.ready(function () {
                     data: {"ID": id},
                     success: function (data) {
 
+                        return false;
                     }
 
 
                 });
-
                 console.log(id);
-
-
             }
+
+
+
+
+
             window.removeEventListener('scroll', checkScroll);
         });
     }

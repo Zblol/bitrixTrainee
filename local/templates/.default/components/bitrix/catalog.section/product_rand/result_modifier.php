@@ -18,5 +18,4 @@ foreach ($arResult["ITEMS"] as $key => $arElement) {
 }
 
 
-
 ?>

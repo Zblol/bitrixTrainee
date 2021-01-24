@@ -25,10 +25,9 @@ $this->setFrameMode(true);
             <h4 hidden class="product_id"><?= $arElement['ID'] ?></h4>
             <a href="<?= $arElement["DETAIL_PAGE_URL"] ?>"><?= $arElement["NAME"] ?></a>
             <h3><?= $arElement['PREVIEW_TEXT']; ?></h3>
-            <? test_dump($arElement["SHOW_COUNTER"]); ?>
         </div>
 
-    <? endforeach; ?>
+    <? endforeach;?>
 
 </div>
 
