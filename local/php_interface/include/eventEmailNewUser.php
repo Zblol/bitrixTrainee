@@ -28,4 +28,6 @@ function OnAfterUserRegisterHandler(&$arFields){
 
         CEvent::Send("NEW_USER", 's1', $arEventFields);
 
+    CBitrixComponent::clearComponentCache('usersite::users.new');
+
 }
