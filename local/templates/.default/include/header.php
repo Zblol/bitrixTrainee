@@ -22,9 +22,9 @@ IncludeTemplateLangFile(__FILE__);
                 </h1>
             </td>
             <td rowspan="2" class="hd_txarea">
-                        <span class="tel">
+                <span class="tel">
 
-                            <? $APPLICATION->IncludeComponent(
+                    <? $APPLICATION->IncludeComponent(
                                 "bitrix:main.include",
                                 "",
                                 array(
@@ -34,10 +34,14 @@ IncludeTemplateLangFile(__FILE__);
                                     "PATH" => "/include/phone.php"
                                 )
                             ); ?>
-                        </span> <br/><?= GetMessage("WORKING_TIME") ?><span
-                        class="workhours"> ежедневно с 8-00 до 21-00</span>
-                <!--                product name-->
-                <span> <? $APPLICATION->ShowViewContent("prod_name"); ?> </span>
+                </span> <br /><?= GetMessage("WORKING_TIME") ?><span class="workhours"> ежедневно с 8-00 до 21-00</span>
+
+
+                <span>
+                    <? $APPLICATION->ShowViewContent("prod_name"); ?>
+                </span>
+
+
             </td>
             <td style="width:232px">
                 <? $APPLICATION->IncludeComponent(
@@ -49,16 +53,13 @@ IncludeTemplateLangFile(__FILE__);
         </tr>
         <tr>
             <td style="padding-top: 11px;">
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:system.auth.form",
-                    ".default",
-                    array(
-                        "FORGOT_PASSWORD_URL" => " /user/",
-                        "PROFILE_URL" => "/user/profile.php",
-                        "REGISTER_URL" => "/user/registration.php",
-                        "SHOW_ERRORS" => "Y",
-                        "COMPONENT_TEMPLATE" => ".default"
-                    ),
+                <? $APPLICATION->IncludeComponent("bitrix:system.auth.form", ".default", array(
+                    "FORGOT_PASSWORD_URL" => " /user/",
+                    "PROFILE_URL" => "/user/profile.php",
+                    "REGISTER_URL" => "/user/registration.php",
+                    "SHOW_ERRORS" => "Y",
+                    "COMPONENT_TEMPLATE" => ".default"
+                ),
                     false,
                     array(
                         "ACTIVE_COMPONENT" => "N"

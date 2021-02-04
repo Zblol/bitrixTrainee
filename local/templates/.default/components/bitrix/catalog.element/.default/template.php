@@ -16,8 +16,9 @@ use \Bitrix\Main\Localization\Loc;
 $this->setFrameMode(true);
 $this->addExternalCss('/bitrix/css/main/bootstrap.css'); ?>
 
+
 <? $this->SetViewTarget("prod_name"); ?>
-    <span><?= $arResult['ITEM'] ?> </span>
+    <span><?= $arResult['NAME'] ?> </span>
 <? $this->EndViewTarget(); ?>
 
 

@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Пользователи", 
+		"/admin/users/userlist.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Форма", 
+		"/admin/form/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Витрина", 
+		"/admin/rand_product.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Загрузить Изображение", 
+		"/admin/img_upload/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новые Пользователи", 
+		"/admin/user_new/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
